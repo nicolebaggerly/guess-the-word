@@ -152,7 +152,7 @@ playAgainButton.addEventListener("click", function () {
     message.classList.remove("win");
     message.innerText = "";
     guessedLettersList.innerHTML = "";
-    remainingGuesses === 8;
+    remainingGuesses = 8;
     guessedLetters = [];
     spanRemainingGuesses.innerText = `${remainingGuesses} guesses`;
     getWord();
